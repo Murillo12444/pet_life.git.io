@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    background-color: white; /* Define a cor de fundo */
+}
+
+
+/* A barra de navegação */
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Fixa a barra de navegação no topo */
+    top: 0;
+    width: 100%; /* Ocupa toda a largura da página */
+    display: flex; /* Usa flexbox para alinhar itens */
+    justify-content: space-between; /* Links à esquerda, logo à direita */
+    align-items: center; /* Centraliza verticalmente */
+    height: 70px;
+}
+
+
+/* Links dentro da barra de navegação */
+.navbar a {
+    color: black;
+    padding: 10px 15px; /* Ajuste o padding aqui se necessário */
+    text-decoration: none;
+    margin-right: 20px; /* Espaçamento entre os links */
+}
+
+
+/* Alterar o plano de fundo ao passar o mouse */
+.navbar a:hover {
+    background: white;
+    color: red;
+}
+
+/* Barra de pesquisa */
+.search-bar {
+    padding: 10px; /* Adiciona padding à barra de pesquisa */
+    margin: 10 20px; /* Espaçamento à esquerda e direita */
+    border: 1px solid #ccc; /* Borda da barra de pesquisa */
+    border-radius: 5px; /* Bordas arredondadas */
+    height: 40px; /* Altura da barra de pesquisa */
+}
+
+
+/* Logo à direita */
+.logo {
+    object-fit: contain; /* Mantém as proporções da imagem */
+    height: 200px;
+}
+
+
+/* Main content */
+.main {
+    margin-top: 60px; /* Adiciona uma margem superior para evitar sobreposição de conteúdo */
+}
+
+/* Estilo para a imagem de exibição */
+.header-image {
+    width: 100vw; /* Usa a largura total da viewport */
+    height: 400px; /* Ajuste a altura conforme necessário */
+    overflow: hidden;
+    margin-top: 70px; /* Adiciona espaço para compensar o menu fixo */
+}
+
+.header-image img {
+    width: 100%; /* Preenche toda a largura do contêiner */
+    height: 100%; /* Preenche toda a altura do contêiner */
+    object-fit: cover; /* Cobre o espaço sem distorções */
+}
+
+/* A barra de item */
+
+.Itens {
+    overflow: hidden;
+    top: 0;
+    width: 100%; /* Ocupa toda a largura da página */
+    display: flex; /* Usa flexbox para alinhar itens */
+    justify-content: space-between; /* Links à esquerda, logo à direita */
+    align-items: center; /* Centraliza verticalmente */
+    height: 70px;
+}
+
+.Itens a {
+    color: black;
+    padding: 10px 15px; /* Ajuste o padding aqui se necessário */
+    text-decoration: none;
+    margin-right: 20px; /* Espaçamento entre os links */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.corinthians{
+    font-size: 30px;
+}
+
+#texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto{
+font-size: 400%;
+}
+
+#texto2{
+    align-items: center;
+    justify-content: center;
+}
+
+#texto2{
+font-size: 100%;
+}
